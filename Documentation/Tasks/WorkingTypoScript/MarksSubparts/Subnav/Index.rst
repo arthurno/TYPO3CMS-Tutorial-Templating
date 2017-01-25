@@ -48,8 +48,8 @@ Now we have to set the level of the page tree on which the menu should begin.
 This can be done with the property :code:`entryLevel`, which is provided
 by the :code:`HMENU` object. If it is set to :code:`0`, the menu begins with
 the first level of pages below the root page. That is what is used in
-the top menu TOPNAV by default Here we want to start one level deeper,
-so we et:
+the top menu TOPNAV by default. Here we want to start one level deeper,
+so we do:
 
 .. code-block:: typoscript
 
@@ -58,7 +58,7 @@ so we et:
 
 .. note::
 
-   Setting an :code:`entryLevel` does not change le numbers used for
+   Setting an :code:`entryLevel` does not change the numbers used for
    levels inside the menu object. The first level is still "1", the next
    one "2", etc.
 
